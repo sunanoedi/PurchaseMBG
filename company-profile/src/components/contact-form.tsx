@@ -1,6 +1,6 @@
 "use client";
 import Script from "next/script";
-import { useRef, useState } from "react";
+import { useId, useRef, useState } from "react";
 import type { Dictionary, Locale } from "@/lib/content";
 import { href } from "@/lib/content";
 declare global {
@@ -20,13 +20,16 @@ export function ContactForm({
   nonce,
   siteKey,
   enabled,
+  contact,
 }: {
   t: Dictionary;
   locale: Locale;
   nonce: string;
   siteKey: string;
   enabled: boolean;
+  contact: { whatsapp: string; email: string };
 }) {
+  const guidanceId = useId();
   const [token, setToken] = useState(""),
     [busy, setBusy] = useState(false),
     [status, setStatus] = useState("");
@@ -77,8 +80,27 @@ export function ContactForm({
   }
   return (
     <form className="quote-form" onSubmit={submit}>
-      <p className="muted">{enabled ? t.form.required : t.form.disabled}</p>
-      <fieldset disabled={!enabled || busy}>
+      <p className="muted" id={guidanceId}>
+        {enabled ? t.form.required : t.form.disabled}
+      </p>
+      {!enabled && (
+        <div className="button-row form-contact-alternatives">
+          <a
+            className="button secondary"
+            href={`https://wa.me/${contact.whatsapp}`}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {t.ui.whatsapp}
+            <span aria-hidden="true">↗</span>
+          </a>
+          <a className="button secondary" href={`mailto:${contact.email}`}>
+            {contact.email}
+            <span aria-hidden="true">↗</span>
+          </a>
+        </div>
+      )}
+      <fieldset disabled={busy}>
         <div className="form-grid">
           <label>
             {t.form.name}
@@ -177,6 +199,7 @@ export function ContactForm({
           className="button"
           type="submit"
           disabled={!enabled || busy || !token}
+          aria-describedby={guidanceId}
         >
           {busy ? t.form.sending : t.form.send}
           <span aria-hidden="true">→</span>

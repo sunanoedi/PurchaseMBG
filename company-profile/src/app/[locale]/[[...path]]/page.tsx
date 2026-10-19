@@ -434,6 +434,7 @@ export default async function Page(props: Props) {
             locale={locale}
             nonce={nonce}
             enabled={Boolean(config)}
+            contact={{ whatsapp: s.whatsapp, email: s.email }}
             siteKey={process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY ?? ""}
           />
           <aside>

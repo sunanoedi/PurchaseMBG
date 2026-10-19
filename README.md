@@ -6,7 +6,7 @@ Source website berada di **company-profile**, Studio resmi Sanity di **sanity-st
 
 ![Beranda UBG — ilustrasi sementara](company-profile/docs/preview/beranda-desktop.png)
 
-[Tampilan mobile](company-profile/docs/preview/beranda-mobile.png) · [Source branch](https://github.com/sunanoedi/PurchaseMBG/tree/rebuild/ubg-company-profile)
+[Tampilan mobile](company-profile/docs/preview/beranda-mobile.png) · [Source branch](https://github.com/sunanoedi/PurchaseMBG/tree/main)
 
 ## Menjalankan website
 
@@ -18,7 +18,7 @@ npm ci --no-audit --no-fund
 npm run dev
 ```
 
-Website menggunakan konten cadangan tanpa konfigurasi Sanity. Form email sengaja nonaktif tanpa seluruh konfigurasi Turnstile/Resend/Upstash. Jangan memasukkan data pelanggan untuk pengujian. Logo, ilustrasi, teks sambutan dan profil adalah draf yang perlu persetujuan manusia.
+Website menggunakan konten cadangan tanpa konfigurasi Sanity. Kolom formulir tetap bisa diisi tanpa konfigurasi layanan. Pengiriman email sengaja nonaktif tanpa seluruh konfigurasi Turnstile/Resend/Upstash; tautan WhatsApp dan email tersedia sebagai alternatif. Jangan memasukkan data pelanggan untuk pengujian. Logo, ilustrasi, teks sambutan dan profil adalah draf yang perlu persetujuan manusia.
 
 Build produksi lokal:
 
@@ -32,7 +32,7 @@ npm start
 ## Deploy demo ke Vercel
 
 1. Buka Vercel, pilih Add New Project, lalu impor sunanoedi/PurchaseMBG.
-2. Source berada di branch **rebuild/ubg-company-profile**. Main belum otomatis berisi website ini. Cara paling mudah untuk impor main: review lalu merge Pull Request branch ini terlebih dahulu. Jika proyek sudah dibuat dari main dan gagal, atur Production Branch ke branch source pada Settings → Git lalu redeploy; pastikan Root Directory tersedia pada branch yang dipakai.
+2. Source website sudah masuk ke **main** melalui PR #1. Gunakan main sebagai Production Branch. Tinjau dan merge PR perbaikan berikutnya untuk memperbarui deployment; pastikan integrasi Git Vercel memakai branch yang sama.
 3. **Root Directory: company-profile**, Framework Next.js, Node.js24.x. Jangan deploy root repository/index.html. Biarkan Output Directory bawaan; jangan static export/out.
 4. Install/build mengikuti company-profile/vercel.json: frozen npm ci, tes, build dan typecheck.
 5. Untuk demo awal, environment boleh kosong. Website memakai /content dan form tidak mengirim. Pilih paket hosting yang sesuai penggunaan komersial dan batasi biaya.

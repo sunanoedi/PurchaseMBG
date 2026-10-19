@@ -289,7 +289,7 @@
     "consent": "I agree to the use of my data to respond to this enquiry under the Privacy Policy.",
     "send": "Send Enquiry",
     "sending": "Sending…",
-    "disabled": "The form is not active yet. Please contact us through WhatsApp or email.",
+    "disabled": "Sending through this form is not available yet. Please use WhatsApp or email below to contact us.",
     "success": "Thank you. Your enquiry has been sent to the UBG team.",
     "error": "Your enquiry could not be sent. Please try again or contact us through WhatsApp.",
     "validation": "Please check your entries, consent, and security verification.",

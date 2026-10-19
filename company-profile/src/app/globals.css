@@ -1015,6 +1015,12 @@ a:not(.button):hover {
 .quote-form .button {
   margin-top: 1rem;
 }
+.quote-form .form-contact-alternatives {
+  margin: 0 0 1.5rem;
+}
+.quote-form .form-contact-alternatives .button {
+  margin-top: 0;
+}
 .honeypot {
   position: absolute;
   left: -10000px;
