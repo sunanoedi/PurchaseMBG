@@ -1,0 +1,39 @@
+{
+  "name": "ubg-sanity-studio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": "24.x"
+  },
+  "scripts": {
+    "dev": "sanity dev --host 0.0.0.0",
+    "build": "sanity build",
+    "typecheck": "tsc --noEmit",
+    "validate:documents": "sanity documents validate"
+  },
+  "dependencies": {
+    "@sanity/client": "7.26.2",
+    "sanity": "6.19.0",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "styled-components": "6.6.0",
+    "zod": "4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "26.6.5",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "typescript": "5.9.3"
+  },
+  "overrides": {
+    "@swc/core": "1.16.0",
+    "@vercel/frameworks": {
+      "js-yaml": "3.15.2",
+      "smol-toml": "1.9.1"
+    },
+    "typeid-js": {
+      "uuid": "11.1.1"
+    }
+  }
+}

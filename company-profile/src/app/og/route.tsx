@@ -1,0 +1,3 @@
+import {ImageResponse} from 'next/og';
+import id from '../../../content/id.json';
+export async function GET(){return new ImageResponse(<div style={{background:'#FAF6F0',width:'100%',height:'100%',display:'flex',flexDirection:'column',padding:80,justifyContent:'center',borderBottom:'22px solid #DC0B0B',color:'#2A2523'}}><div style={{display:'flex',fontSize:32,color:'#DC0B0B',marginBottom:30}}>{id.brand.short}</div><div style={{display:'flex',fontSize:68,fontWeight:700,lineHeight:1.15}}>{id.brand.name}</div><div style={{display:'flex',fontSize:30,marginTop:30}}>{id.brand.tagline}</div></div>,{width:1200,height:630});}

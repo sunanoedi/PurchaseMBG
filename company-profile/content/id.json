@@ -1,0 +1,372 @@
+{
+  "brand": {
+    "name": "PT Usaha Bersama Gemilang",
+    "short": "UBG Catering",
+    "tagline": "Katering industri & event · Bekasi",
+    "address": "Kampung Cikedokan (Warung Sengon) RT 02/RW 01 No. 140, Sukadanau, Cibitung, Cikarang Barat, Kab. Bekasi",
+    "email": "info@ubg.id",
+    "phone": "0811-665-925",
+    "whatsapp": "62811665925"
+  },
+  "nav": {
+    "home": "Beranda",
+    "about": "Tentang Kami",
+    "services": "Layanan",
+    "menus": "Paket Menu",
+    "gallery": "Galeri",
+    "certificates": "Sertifikasi & Legalitas",
+    "clients": "Klien",
+    "kitchen": "Fasilitas Dapur",
+    "contact": "Kontak",
+    "privacy": "Kebijakan Privasi",
+    "articles": "Artikel"
+  },
+  "paths": {
+    "home": "",
+    "about": "tentang-kami",
+    "services": "layanan",
+    "menus": "paket-menu",
+    "gallery": "galeri",
+    "certificates": "sertifikasi-legalitas",
+    "clients": "klien",
+    "kitchen": "fasilitas-dapur",
+    "contact": "kontak",
+    "privacy": "kebijakan-privasi",
+    "articles": "artikel"
+  },
+  "ui": {
+    "quote": "Minta Penawaran",
+    "whatsapp": "WhatsApp",
+    "learn": "Kenali Layanan",
+    "read": "Baca Artikel",
+    "all": "Semua",
+    "menuOpen": "Buka menu navigasi",
+    "menuClose": "Tutup menu navigasi",
+    "close": "Tutup gambar",
+    "previous": "Gambar sebelumnya",
+    "next": "Gambar berikutnya",
+    "openImage": "Buka gambar",
+    "skip": "Langsung ke isi",
+    "languageId": "ID — Bahasa Indonesia",
+    "languageEn": "EN — English",
+    "quickLinks": "Jelajahi UBG",
+    "visit": "Dari dapur kami",
+    "copyright": "PT Usaha Bersama Gemilang. Hak cipta dilindungi.",
+    "placeholder": "Ilustrasi sementara · bukan foto UBG",
+    "empty": "Konten terverifikasi sedang disiapkan. Silakan hubungi kami untuk informasi terbaru.",
+    "expired": "Berlaku sampai",
+    "issuer": "Penerbit",
+    "number": "Nomor",
+    "map": "Muat peta Google",
+    "mapNotice": "Peta dimuat hanya setelah Anda memilih tombol ini. Google dapat memproses data koneksi Anda.",
+    "mapTitle": "Peta pencarian alamat UBG Catering",
+    "back": "Kembali ke Beranda",
+    "notFoundTitle": "Halaman ini belum ada di menu.",
+    "notFoundBody": "Mari kembali ke Beranda atau bicarakan kebutuhan katering Anda dengan tim kami.",
+    "illustrationTitle": "Disiapkan dengan perhatian",
+    "sticker": "MAKAN ENAK.",
+    "stickerBody": "Obrolan baik dimulai di meja makan.",
+    "region": "Cikarang Barat · Kabupaten Bekasi",
+    "verifiedNote": "Angka berasal dari brief perusahaan dan masih menunggu dokumen pendukung sebelum publikasi final.",
+    "directorRole": "Direktur Utama",
+    "draft": "PRATINJAU DRAF · hanya editor",
+    "previewExit": "Keluar pratinjau",
+    "page": "Halaman",
+    "serviceIndustry": "Industri",
+    "serviceEvent": "Event",
+    "dapur": "Dapur",
+    "tim": "Tim",
+    "hidangan": "Hidangan",
+    "acara": "Acara"
+  },
+  "hero": {
+    "title": [
+      "DARI DAPUR,",
+      "UNTUK TIM",
+      "YANG HEBAT."
+    ],
+    "body": "Makan siang di sela kerja. Jamuan di hari istimewa. Mari siapkan hidangan yang membuat semua merasa diperhatikan."
+  },
+  "advantages": [
+    {
+      "number": "21",
+      "label": "Klien industri"
+    },
+    {
+      "number": "8",
+      "label": "Sertifikasi"
+    },
+    {
+      "number": "CENTRAL",
+      "label": "Kitchen modern"
+    },
+    {
+      "number": "TERLATIH",
+      "label": "Tim bersertifikat"
+    }
+  ],
+  "home": {
+    "servicesEyebrow": "Satu perhatian, dua kebutuhan",
+    "servicesTitle": "Untuk hari kerja.\nUntuk hari istimewa.",
+    "certTitle": "Kepercayaan punya dasar.",
+    "certBody": "Dokumen sertifikasi yang terverifikasi dan masih berlaku akan ditampilkan di sini. Mintalah dokumen relevan melalui tim kami.",
+    "clientsTitle": "Tumbuh bersama tim Anda.",
+    "clientsBody": "Daftar nama dan logo pelanggan ditampilkan setelah mendapat izin publikasi."
+  },
+  "cta": {
+    "eyebrow": "Mulai dari percakapan",
+    "title": "Ada berapa orang\ndi meja Anda?",
+    "body": "Ceritakan jumlah porsi, lokasi, dan jadwalnya. Kami bantu menyusun kebutuhan katering Anda."
+  },
+  "pages": {
+    "about": {
+      "eyebrow": "Kenali UBG",
+      "title": "Dapur yang dekat.\nPerhatian yang terasa.",
+      "intro": "PT Usaha Bersama Gemilang melayani kebutuhan katering industri dan event dari Cikarang Barat, Kabupaten Bekasi. Kami percaya sajian yang baik berawal dari proses yang tertata dan tim yang peduli.",
+      "directorTitle": "Sepatah kata dari dapur kami.",
+      "directorMessage": "Setiap porsi membawa tanggung jawab. Kami ingin hadir sebagai rekan yang mudah diajak bicara, memahami kebutuhan operasional Anda, dan terus belajar menjaga mutu pelayanan. Terima kasih telah membuka kesempatan untuk bertumbuh bersama.",
+      "directorName": "Luthfi Rahman",
+      "visionTitle": "Visi",
+      "vision": "Menjadi mitra katering yang dipercaya karena mutu sajian, pelayanan, dan kepedulian terhadap pelanggan.",
+      "missionTitle": "Misi",
+      "missions": [
+        "Menyiapkan sajian dengan perhatian pada kebersihan dan kebutuhan pelanggan.",
+        "Mengembangkan tim melalui pembelajaran dan kerja sama.",
+        "Membangun hubungan kerja yang terbuka dan bertanggung jawab."
+      ],
+      "valuesTitle": "Lima hal yang kami pegang.",
+      "values": [
+        {
+          "title": "Integritas",
+          "body": "Jujur dalam komunikasi dan bertanggung jawab pada komitmen."
+        },
+        {
+          "title": "Kepedulian",
+          "body": "Mendengar kebutuhan orang di balik setiap pesanan."
+        },
+        {
+          "title": "Mutu",
+          "body": "Menjaga perhatian pada bahan, proses, dan penyajian."
+        },
+        {
+          "title": "Kerja sama",
+          "body": "Bekerja sebagai satu tim bersama pelanggan."
+        },
+        {
+          "title": "Perbaikan",
+          "body": "Belajar dari masukan untuk menjadi lebih baik."
+        }
+      ]
+    },
+    "services": {
+      "eyebrow": "Layanan kami",
+      "title": "Sajian yang mengikuti\nritme kebutuhan Anda.",
+      "intro": "Kebutuhan shift pabrik berbeda dengan hari perayaan. Kami mulai dari memahami orang, tempat, dan jadwalnya."
+    },
+    "menus": {
+      "eyebrow": "Rencanakan sajian",
+      "title": "Menu dibicarakan.\nKebutuhan didengarkan.",
+      "intro": "Kerangka paket berikut merupakan contoh untuk diskusi awal. Susunan, ketersediaan, kebutuhan diet, dan jumlah porsi dikonfirmasi melalui penawaran. Tidak ada harga yang dipublikasikan."
+    },
+    "gallery": {
+      "eyebrow": "Cerita dari dapur",
+      "title": "Lihat prosesnya.\nKenali orangnya.",
+      "intro": "Ilustrasi sementara akan diganti foto dapur, tim, hidangan, dan acara setelah tersedia dan disetujui."
+    },
+    "certificates": {
+      "eyebrow": "Sertifikasi & legalitas",
+      "title": "Terbuka tentang\ndasar kepercayaan.",
+      "intro": "Hanya sertifikat yang terverifikasi, diizinkan untuk dipublikasikan, dan masih berlaku yang ditampilkan.",
+      "legalTitle": "Ringkasan legalitas",
+      "legal": [
+        "Berbadan hukum — dokumen pendukung menunggu verifikasi.",
+        "Pendaftaran Kemenkumham — rincian menunggu verifikasi.",
+        "Laik Higiene Sanitasi — status dokumen menunggu verifikasi."
+      ]
+    },
+    "clients": {
+      "eyebrow": "Rekan perjalanan",
+      "title": "Bekerja bersama.\nBertumbuh bersama.",
+      "intro": "Daftar klien dikelompokkan menurut kawasan. Nama dan logo akan ditampilkan setelah verifikasi serta izin pelanggan."
+    },
+    "kitchen": {
+      "eyebrow": "Fasilitas dapur",
+      "title": "Ruang untuk bekerja\ndengan perhatian.",
+      "intro": "Informasi fasilitas berikut adalah kerangka profil. Foto dan rincian operasional perlu dikonfirmasi melalui kunjungan atau percakapan dengan tim UBG.",
+      "items": [
+        {
+          "title": "Persiapan bahan",
+          "body": "Alur penerimaan dan persiapan bahan disusun sesuai kebutuhan produksi."
+        },
+        {
+          "title": "Area pengolahan",
+          "body": "Peralatan dan area kerja disesuaikan dengan jenis sajian dan kapasitas yang disepakati."
+        },
+        {
+          "title": "Pengemasan & distribusi",
+          "body": "Koordinasi penyajian, pengemasan, dan jadwal distribusi dibahas sejak awal."
+        }
+      ]
+    },
+    "contact": {
+      "eyebrow": "Mari berbincang",
+      "title": "Ceritakan kebutuhan\ndi meja Anda.",
+      "intro": "Isi kebutuhan awal atau hubungi kami melalui WhatsApp. Jadwal, susunan menu, dan kapasitas dikonfirmasi oleh tim."
+    },
+    "privacy": {
+      "eyebrow": "Privasi Anda",
+      "title": "Data seperlunya.\nTujuan yang jelas.",
+      "intro": "Kebijakan ini menjelaskan penggunaan data ketika Anda menghubungi PT Usaha Bersama Gemilang.",
+      "sections": [
+        {
+          "title": "Data dan tujuan",
+          "body": "Nama, perusahaan, email, telepon, kebutuhan layanan, jumlah porsi, dan pesan digunakan untuk menjawab permintaan penawaran berdasarkan persetujuan Anda. Jangan memasukkan data sensitif dalam pesan."
+        },
+        {
+          "title": "Pemrosesan dan penyedia",
+          "body": "Website tidak menyimpan isian formulir dalam database atau CMS. Data diteruskan melalui penyedia email. Layanan hosting, anti-bot, email dan keamanan dapat memproses metadata teknis, termasuk di luar Indonesia. Retensi dan perjanjian penyedia perlu ditinjau oleh perusahaan sebelum go-live."
+        },
+        {
+          "title": "Hak Anda",
+          "body": "Sesuai UU No. 27 Tahun 2022 tentang Pelindungan Data Pribadi, Anda dapat meminta akses, koreksi, penghapusan, atau penarikan persetujuan dengan menghubungi info@ubg.id. Permintaan ditangani setelah verifikasi yang proporsional dan sesuai kewajiban hukum."
+        },
+        {
+          "title": "Penyimpanan dan kontak",
+          "body": "Pesan email disimpan hanya selama diperlukan untuk tindak lanjut dan kewajiban hukum. Penanggung jawab perusahaan perlu menetapkan jadwal retensi final. Hubungi info@ubg.id untuk pertanyaan privasi."
+        }
+      ]
+    },
+    "articles": {
+      "eyebrow": "Catatan UBG",
+      "title": "Cerita yang layak\ndibawa ke meja.",
+      "intro": "Kabar, proses, dan ide dari tim UBG. Artikel ditampilkan setelah diterbitkan oleh editor."
+    }
+  },
+  "services": [
+    {
+      "category": "industry",
+      "title": "Catering Industri",
+      "body": "Makan bersama yang mendukung ritme kerja. Untuk pabrik, kantor, dan kebutuhan tim sehari-hari.",
+      "details": [
+        "Perencanaan menu dan jumlah porsi",
+        "Koordinasi jadwal kerja dan titik distribusi",
+        "Penyesuaian kebutuhan melalui kesepakatan layanan"
+      ]
+    },
+    {
+      "category": "event",
+      "title": "Catering Event",
+      "body": "Dari pertemuan kantor hingga perayaan keluarga, mari susun sajian yang sesuai acara Anda.",
+      "details": [
+        "Diskusi susunan menu dan bentuk penyajian",
+        "Koordinasi lokasi, waktu, dan kebutuhan acara",
+        "Pilihan paket yang dibahas tanpa harga publik"
+      ]
+    }
+  ],
+  "packages": [
+    {
+      "name": "Sajian Harian Tim",
+      "category": "industry",
+      "description": "Kerangka awal untuk kebutuhan makan karyawan.",
+      "items": [
+        "Nasi",
+        "Lauk utama",
+        "Sayur",
+        "Pelengkap"
+      ]
+    },
+    {
+      "name": "Rapat & Pertemuan",
+      "category": "event",
+      "description": "Kerangka sajian untuk agenda kantor atau pertemuan.",
+      "items": [
+        "Hidangan utama",
+        "Pelengkap",
+        "Pilihan minuman sesuai diskusi"
+      ]
+    }
+  ],
+  "form": {
+    "name": "Nama",
+    "company": "Perusahaan / organisasi",
+    "email": "Email",
+    "phone": "Nomor telepon",
+    "service": "Jenis layanan",
+    "portions": "Perkiraan jumlah porsi",
+    "message": "Pesan",
+    "consent": "Saya menyetujui penggunaan data untuk menanggapi permintaan ini sesuai Kebijakan Privasi.",
+    "send": "Kirim Permintaan",
+    "sending": "Mengirim…",
+    "disabled": "Form belum aktif. Silakan hubungi kami melalui WhatsApp atau email.",
+    "success": "Terima kasih. Permintaan Anda sudah dikirim kepada tim UBG.",
+    "error": "Permintaan belum berhasil dikirim. Silakan coba lagi atau hubungi kami melalui WhatsApp.",
+    "validation": "Periksa kembali isian, persetujuan, dan verifikasi keamanan.",
+    "rate": "Terlalu banyak percobaan. Silakan tunggu sebelum mencoba kembali.",
+    "bot": "Biarkan kolom ini kosong",
+    "required": "Semua kolom wajib diisi kecuali perusahaan.",
+    "captcha": "Verifikasi keamanan diperlukan untuk mengirim pesan."
+  },
+  "seo": {
+    "home": "Katering Industri & Event di Bekasi",
+    "description": "Kenali PT Usaha Bersama Gemilang, mitra katering industri dan event di Cikarang Barat, Kabupaten Bekasi. Bicarakan kebutuhan Anda dengan tim UBG."
+  },
+  "images": {
+    "meal": "Ilustrasi sementara sajian nasi, lauk, dan sayuran; bukan foto produk UBG.",
+    "kitchen": "Ilustrasi sementara area persiapan dapur; bukan foto fasilitas UBG.",
+    "team": "Ilustrasi sementara tim dapur; bukan foto karyawan UBG.",
+    "event": "Ilustrasi sementara penyajian acara; bukan foto acara pelanggan.",
+    "director": "Ilustrasi potret sementara; bukan foto Luthfi Rahman."
+  },
+  "studio": {
+    "menuPackage": "Paket Menu",
+    "galleryItem": "Galeri",
+    "article": "Artikel",
+    "client": "Klien",
+    "certificate": "Sertifikat",
+    "siteSettings": "Pengaturan Umum",
+    "name": "Nama / judul",
+    "description": "Deskripsi / ringkasan",
+    "category": "Kategori",
+    "items": "Isi paket",
+    "photo": "Foto",
+    "alt": "Teks alternatif",
+    "order": "Urutan",
+    "visible": "Tampilkan",
+    "verified": "Disetujui untuk publikasi",
+    "region": "Kawasan",
+    "logo": "Logo",
+    "issuer": "Penerbit",
+    "number": "Nomor",
+    "expires": "Tanggal kedaluwarsa",
+    "slug": "Slug",
+    "body": "Isi",
+    "publishedAt": "Tanggal terbit",
+    "status": "Status",
+    "draft": "Draf",
+    "published": "Terbit",
+    "seo": "Meta SEO",
+    "phone": "Telepon",
+    "whatsapp": "WhatsApp",
+    "email": "Email",
+    "address": "Alamat",
+    "mapUrl": "Tautan peta",
+    "industry": "Industri",
+    "event": "Event",
+    "dapur": "Dapur",
+    "tim": "Tim",
+    "hidangan": "Hidangan",
+    "acara": "Acara",
+    "assetError": "Hanya JPG/PNG/WebP <=5 MB, sisi <=8192px, <=25MP; alt Indonesia dan Inggris wajib.",
+    "normal": "Paragraf",
+    "h2": "Judul bagian",
+    "h3": "Subjudul",
+    "quote": "Kutipan",
+    "link": "Tautan",
+    "url": "URL",
+    "bold": "Tebal",
+    "italic": "Miring",
+    "bullet": "Daftar poin",
+    "numbered": "Daftar nomor"
+  }
+}
