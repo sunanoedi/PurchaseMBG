@@ -1,0 +1,98 @@
+import Link from "next/link";
+import {
+  dictionary,
+  href,
+  type Dictionary,
+  type Locale,
+  type PageKey,
+} from "@/lib/content";
+import type { CmsRecord } from "@/lib/cms-model";
+export function settings(t: Dictionary, locale: Locale, records: CmsRecord[]) {
+  const record = records.find((r) => r._type === "siteSettings");
+  return record
+    ? {
+        phone: record.phone,
+        whatsapp: record.whatsapp,
+        email: record.email,
+        address: record.address[locale],
+        mapUrl: record.mapUrl,
+      }
+    : { ...t.brand, mapUrl: undefined };
+}
+export function CallToAction({ locale }: { locale: Locale }) {
+  const t = dictionary(locale);
+  return (
+    <section className="cta-band">
+      <div>
+        <p className="eyebrow">{t.cta.eyebrow}</p>
+        <h2>{t.cta.title}</h2>
+      </div>
+      <div>
+        <p>{t.cta.body}</p>
+        <Link className="button light" href={href(locale, "contact")}>
+          {t.ui.quote}
+          <span aria-hidden="true">→</span>
+        </Link>
+      </div>
+    </section>
+  );
+}
+export function Footer({
+  locale,
+  records,
+}: {
+  locale: Locale;
+  records: CmsRecord[];
+}) {
+  const t = dictionary(locale),
+    s = settings(t, locale, records);
+  return (
+    <>
+      <footer className="site-footer">
+        <div>
+          <p className="eyebrow">{t.ui.visit}</p>
+          <h2>{t.brand.name}</h2>
+          <address>{s.address}</address>
+          <a href={`mailto:${s.email}`}>{s.email}</a>
+          <a href={`tel:${s.phone.replace(/[^+0-9]/g, "")}`}>{s.phone}</a>
+        </div>
+        <nav aria-label={t.ui.quickLinks}>
+          <p className="eyebrow">{t.ui.quickLinks}</p>
+          {(
+            [
+              "about",
+              "services",
+              "menus",
+              "gallery",
+              "certificates",
+              "clients",
+              "kitchen",
+              "articles",
+              "contact",
+              "privacy",
+            ] as PageKey[]
+          ).map((key) => (
+            <Link href={href(locale, key)} key={key}>
+              {t.nav[key]}
+            </Link>
+          ))}
+        </nav>
+        <p className="copyright">
+          © {new Date().getFullYear()} {t.ui.copyright}
+        </p>
+      </footer>
+      <a
+        className="floating-whatsapp"
+        href={`https://wa.me/${s.whatsapp}`}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M20 11.5A8.5 8.5 0 0 1 7.3 19L3 20l1-4.3A8.5 8.5 0 1 1 20 11.5Z" />
+          <path d="M8 7c0 5 3 8 8 8l1-2-3-1-1 1-3-3 1-1-1-3Z" />
+        </svg>
+        <span>{t.ui.whatsapp}</span>
+      </a>
+    </>
+  );
+}

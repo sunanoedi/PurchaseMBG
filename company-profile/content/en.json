@@ -1,0 +1,363 @@
+{
+  "brand": {
+    "name": "PT Usaha Bersama Gemilang",
+    "short": "UBG Catering",
+    "tagline": "Industrial & event catering · Bekasi",
+    "address": "Kampung Cikedokan (Warung Sengon) RT 02/RW 01 No. 140, Sukadanau, Cibitung, Cikarang Barat, Kab. Bekasi",
+    "email": "info@ubg.id",
+    "phone": "0811-665-925",
+    "whatsapp": "62811665925"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "services": "Services",
+    "menus": "Menu Packages",
+    "gallery": "Gallery",
+    "certificates": "Certifications & Legal",
+    "clients": "Clients",
+    "kitchen": "Kitchen Facilities",
+    "contact": "Contact",
+    "privacy": "Privacy Policy",
+    "articles": "Articles"
+  },
+  "paths": {
+    "home": "",
+    "about": "about-us",
+    "services": "services",
+    "menus": "menu-packages",
+    "gallery": "gallery",
+    "certificates": "certifications-legal",
+    "clients": "clients",
+    "kitchen": "kitchen-facilities",
+    "contact": "contact",
+    "privacy": "privacy-policy",
+    "articles": "articles"
+  },
+  "ui": {
+    "quote": "Request a Quote",
+    "whatsapp": "WhatsApp",
+    "learn": "Explore Our Services",
+    "read": "Read Article",
+    "all": "All",
+    "menuOpen": "Open navigation menu",
+    "menuClose": "Close navigation menu",
+    "close": "Close image",
+    "previous": "Previous image",
+    "next": "Next image",
+    "openImage": "Open image",
+    "skip": "Skip to content",
+    "languageId": "ID — Bahasa Indonesia",
+    "languageEn": "EN — English",
+    "quickLinks": "Explore UBG",
+    "visit": "From our kitchen",
+    "copyright": "PT Usaha Bersama Gemilang. All rights reserved.",
+    "placeholder": "Temporary illustration · not a UBG photograph",
+    "empty": "Verified content is being prepared. Please contact our team for the latest information.",
+    "expired": "Valid until",
+    "issuer": "Issuer",
+    "number": "Number",
+    "map": "Load Google Map",
+    "mapNotice": "The map loads only when you select this button. Google may process connection data.",
+    "mapTitle": "Address search map for UBG Catering",
+    "back": "Back to Home",
+    "notFoundTitle": "This page isn’t on our menu.",
+    "notFoundBody": "Head back to Home or talk to our team about your catering needs.",
+    "illustrationTitle": "Prepared with care",
+    "sticker": "GOOD FOOD.",
+    "stickerBody": "Good conversations start around the table.",
+    "region": "West Cikarang · Bekasi Regency",
+    "verifiedNote": "Figures supplied in the company brief await supporting documents before final publication.",
+    "directorRole": "President Director",
+    "draft": "DRAFT PREVIEW · editors only",
+    "previewExit": "Exit preview",
+    "page": "Page",
+    "serviceIndustry": "Industrial",
+    "serviceEvent": "Event",
+    "dapur": "Kitchen",
+    "tim": "Team",
+    "hidangan": "Food",
+    "acara": "Events"
+  },
+  "hero": {
+    "title": ["FROM OUR KITCHEN,", "FOR YOUR", "GREAT TEAM."],
+    "body": "Lunch during a busy shift. A meal for a special occasion. Let’s prepare food that makes everyone feel cared for."
+  },
+  "advantages": [
+    {
+      "number": "21",
+      "label": "Industrial clients"
+    },
+    {
+      "number": "8",
+      "label": "Certifications"
+    },
+    {
+      "number": "CENTRAL",
+      "label": "Modern kitchen"
+    },
+    {
+      "number": "TRAINED",
+      "label": "Certified team"
+    }
+  ],
+  "home": {
+    "servicesEyebrow": "One commitment, different occasions",
+    "servicesTitle": "For working days.\nFor special days.",
+    "certTitle": "Trust has a foundation.",
+    "certBody": "Verified, current certifications will appear here. Ask our team for the documents relevant to your requirements.",
+    "clientsTitle": "Growing with your team.",
+    "clientsBody": "Client names and logos are published only after permission has been granted."
+  },
+  "cta": {
+    "eyebrow": "Start with a conversation",
+    "title": "How many people\nare at your table?",
+    "body": "Tell us about your headcount, location, and schedule. We’ll help you work through your catering needs."
+  },
+  "pages": {
+    "about": {
+      "eyebrow": "Meet UBG",
+      "title": "A kitchen close by.\nCare you can feel.",
+      "intro": "PT Usaha Bersama Gemilang serves industrial and event catering needs from West Cikarang, Bekasi Regency. We believe good food begins with thoughtful processes and people who care.",
+      "directorTitle": "A note from our kitchen.",
+      "directorMessage": "Every portion comes with responsibility. We aim to be a partner who is easy to talk to, understands your operations, and keeps learning to improve our service. Thank you for giving us the opportunity to grow together.",
+      "directorName": "Luthfi Rahman",
+      "visionTitle": "Vision",
+      "vision": "To be a catering partner trusted for the quality of our food, service, and attention to our customers.",
+      "missionTitle": "Mission",
+      "missions": [
+        "Prepare meals with care for hygiene and customer requirements.",
+        "Develop our people through learning and teamwork.",
+        "Build open, responsible working relationships."
+      ],
+      "valuesTitle": "Five values we work by.",
+      "values": [
+        {
+          "title": "Integrity",
+          "body": "Communicate honestly and take responsibility for our commitments."
+        },
+        {
+          "title": "Care",
+          "body": "Listen to the people behind each order."
+        },
+        {
+          "title": "Quality",
+          "body": "Pay attention to ingredients, preparation, and presentation."
+        },
+        {
+          "title": "Teamwork",
+          "body": "Work as one team with our customers."
+        },
+        {
+          "title": "Improvement",
+          "body": "Learn from feedback and keep getting better."
+        }
+      ]
+    },
+    "services": {
+      "eyebrow": "Our services",
+      "title": "Food that fits\nyour plans.",
+      "intro": "A factory shift has different needs from a celebration. We start by understanding your people, place, and schedule."
+    },
+    "menus": {
+      "eyebrow": "Plan your meals",
+      "title": "Menus discussed.\nYour needs heard.",
+      "intro": "These sample package outlines are starting points for discussion. Menus, availability, dietary requirements, and portions are confirmed in your quotation. Prices are not published."
+    },
+    "gallery": {
+      "eyebrow": "Stories from the kitchen",
+      "title": "See the process.\nMeet the people.",
+      "intro": "Temporary illustrations will be replaced with approved photographs of the kitchen, team, food, and events."
+    },
+    "certificates": {
+      "eyebrow": "Certifications & legal",
+      "title": "Open about the\nfoundations of trust.",
+      "intro": "Only verified, approved, and current certificates are displayed.",
+      "legalTitle": "Legal overview",
+      "legal": [
+        "Incorporated entity — supporting documents await verification.",
+        "Ministry of Law registration — details await verification.",
+        "Hygiene and sanitation eligibility — document status awaits verification."
+      ]
+    },
+    "clients": {
+      "eyebrow": "Our partners",
+      "title": "Working together.\nGrowing together.",
+      "intro": "Clients are grouped by area. Names and logos appear only after verification and customer permission."
+    },
+    "kitchen": {
+      "eyebrow": "Kitchen facilities",
+      "title": "Space to work\nwith care.",
+      "intro": "This is an outline of our facility profile. Photographs and operational details should be confirmed through a visit or conversation with UBG.",
+      "items": [
+        {
+          "title": "Ingredient preparation",
+          "body": "Receiving and preparation processes are planned around production requirements."
+        },
+        {
+          "title": "Cooking area",
+          "body": "Equipment and work areas are matched to the dishes and capacity agreed with your team."
+        },
+        {
+          "title": "Packing & distribution",
+          "body": "Serving, packaging, and delivery schedules are coordinated from the outset."
+        }
+      ]
+    },
+    "contact": {
+      "eyebrow": "Let’s talk",
+      "title": "Tell us what\nyour table needs.",
+      "intro": "Share your initial requirements or contact us through WhatsApp. Our team will confirm schedules, menus, and capacity."
+    },
+    "privacy": {
+      "eyebrow": "Your privacy",
+      "title": "Necessary data.\nA clear purpose.",
+      "intro": "This policy explains how data is used when you contact PT Usaha Bersama Gemilang.",
+      "sections": [
+        {
+          "title": "Data and purpose",
+          "body": "Your name, company, email, phone, service requirements, portion estimate, and message are used to respond to your quotation request with your consent. Please do not include sensitive information."
+        },
+        {
+          "title": "Processing and providers",
+          "body": "The website does not store form submissions in a database or CMS. Enquiries are forwarded through an email provider. Hosting, anti-bot, email, and security services may process technical metadata, including outside Indonesia. The company must review provider retention and agreements before launch."
+        },
+        {
+          "title": "Your rights",
+          "body": "Under Indonesia’s Personal Data Protection Law No. 27 of 2022, you may request access, correction, deletion, or withdrawal of consent by contacting info@ubg.id. Requests are handled following proportionate verification and applicable legal obligations."
+        },
+        {
+          "title": "Retention and contact",
+          "body": "Emails are retained only as needed for follow-up and legal obligations. The company must approve a final retention schedule. Contact info@ubg.id for privacy enquiries."
+        }
+      ]
+    },
+    "articles": {
+      "eyebrow": "UBG journal",
+      "title": "Stories worth\nbringing to the table.",
+      "intro": "News, processes, and ideas from the UBG team. Articles appear after publication by an editor."
+    }
+  },
+  "services": [
+    {
+      "category": "industry",
+      "title": "Industrial Catering",
+      "body": "Meals that fit the working day. For factories, offices, and the teams behind them.",
+      "details": [
+        "Menu and portion planning",
+        "Coordination of shifts and distribution points",
+        "Service requirements agreed with your team"
+      ]
+    },
+    {
+      "category": "event",
+      "title": "Event Catering",
+      "body": "From office gatherings to family celebrations, let’s plan food around your occasion.",
+      "details": [
+        "Menu and serving arrangements",
+        "Coordination of venue, timing, and event needs",
+        "Packages discussed without published prices"
+      ]
+    }
+  ],
+  "packages": [
+    {
+      "name": "Everyday Team Meals",
+      "category": "industry",
+      "description": "A starting point for employee meal planning.",
+      "items": ["Rice", "Main dish", "Vegetables", "Accompaniments"]
+    },
+    {
+      "name": "Meetings & Gatherings",
+      "category": "event",
+      "description": "A starting point for office meetings and gatherings.",
+      "items": [
+        "Main dishes",
+        "Accompaniments",
+        "Beverages discussed with your team"
+      ]
+    }
+  ],
+  "form": {
+    "name": "Name",
+    "company": "Company / organisation",
+    "email": "Email",
+    "phone": "Phone number",
+    "service": "Service type",
+    "portions": "Estimated number of portions",
+    "message": "Message",
+    "consent": "I agree to the use of my data to respond to this enquiry under the Privacy Policy.",
+    "send": "Send Enquiry",
+    "sending": "Sending…",
+    "disabled": "The form is not active yet. Please contact us through WhatsApp or email.",
+    "success": "Thank you. Your enquiry has been sent to the UBG team.",
+    "error": "Your enquiry could not be sent. Please try again or contact us through WhatsApp.",
+    "validation": "Please check your entries, consent, and security verification.",
+    "rate": "Too many attempts. Please wait before trying again.",
+    "bot": "Leave this field empty",
+    "required": "All fields are required except company.",
+    "captcha": "Security verification is required to send your message."
+  },
+  "seo": {
+    "home": "Industrial & Event Catering in Bekasi",
+    "description": "Meet PT Usaha Bersama Gemilang, an industrial and event catering partner in West Cikarang, Bekasi Regency. Talk to the UBG team about your requirements."
+  },
+  "images": {
+    "meal": "Temporary illustration of a rice meal with protein and vegetables; not a UBG product photograph.",
+    "kitchen": "Temporary illustration of a kitchen preparation area; not a UBG facility photograph.",
+    "team": "Temporary illustration of a kitchen team; not a photograph of UBG employees.",
+    "event": "Temporary illustration of event dining; not a photograph of a client event.",
+    "director": "Temporary portrait illustration; not a photograph of Luthfi Rahman."
+  },
+  "studio": {
+    "menuPackage": "Menu Package",
+    "galleryItem": "Gallery",
+    "article": "Article",
+    "client": "Client",
+    "certificate": "Certificate",
+    "siteSettings": "General Settings",
+    "name": "Name / title",
+    "description": "Description / summary",
+    "category": "Category",
+    "items": "Package contents",
+    "photo": "Photo",
+    "alt": "Alternative text",
+    "order": "Order",
+    "visible": "Visible",
+    "verified": "Approved for publication",
+    "region": "Area",
+    "logo": "Logo",
+    "issuer": "Issuer",
+    "number": "Number",
+    "expires": "Expiry date",
+    "slug": "Slug",
+    "body": "Body",
+    "publishedAt": "Publication date",
+    "status": "Status",
+    "draft": "Draft",
+    "published": "Published",
+    "seo": "SEO metadata",
+    "phone": "Phone",
+    "whatsapp": "WhatsApp",
+    "email": "Email",
+    "address": "Address",
+    "mapUrl": "Map URL",
+    "industry": "Industrial",
+    "event": "Event",
+    "dapur": "Kitchen",
+    "tim": "Team",
+    "hidangan": "Food",
+    "acara": "Events",
+    "assetError": "JPG/PNG/WebP only, <=5 MB, <=8192px per side, <=25MP; Indonesian and English alt text required.",
+    "normal": "Paragraph",
+    "h2": "Section heading",
+    "h3": "Subheading",
+    "quote": "Quotation",
+    "link": "Link",
+    "url": "URL",
+    "bold": "Bold",
+    "italic": "Italic",
+    "bullet": "Bullet list",
+    "numbered": "Numbered list"
+  }
+}

@@ -1,0 +1,4 @@
+Contact: mailto:info@ubg.id
+Expires: 2027-04-19T00:00:00Z
+Preferred-Languages: id, en
+Canonical: https://ubg.id/.well-known/security.txt
