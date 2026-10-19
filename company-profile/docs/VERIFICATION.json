@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-19",
+  "timezone": "Asia/Jakarta",
+  "unit": {
+    "passed": 40,
+    "failed": 0,
+    "skipped": 0
+  },
+  "smokePages": 22,
+  "browserWidths": [360, 390, 768, 1440],
+  "lighthouseLocal": {
+    "performance": 97,
+    "accessibility": 100,
+    "best-practices": 100,
+    "seo": 100
+  },
+  "metricsLocal": {
+    "largest-contentful-paint": "2.4 s",
+    "cumulative-layout-shift": "0.013",
+    "total-blocking-time": "100 ms"
+  },
+  "accountsConfigured": false,
+  "gitleaksRun": false,
+  "productionTested": false,
+  "legacyChanged": false
+}

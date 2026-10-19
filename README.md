@@ -2,6 +2,12 @@
 
 Source website berada di **company-profile**, Studio resmi Sanity di **sanity-studio**. File index.html di root adalah aplikasi invoice lama dan tidak diubah atau termasuk website. Ini pembangunan ulang setelah lingkungan sebelumnya tidak tersedia; hasil pengujian lama tidak dianggap pengujian versi ini.
 
+## Preview desain
+
+![Beranda UBG — ilustrasi sementara](company-profile/docs/preview/beranda-desktop.png)
+
+[Tampilan mobile](company-profile/docs/preview/beranda-mobile.png) · [Source branch](https://github.com/sunanoedi/PurchaseMBG/tree/rebuild/ubg-company-profile)
+
 ## Menjalankan website
 
 Gunakan Node.js **24.x** dan npm. Dari root repository:
@@ -26,7 +32,7 @@ npm start
 ## Deploy demo ke Vercel
 
 1. Buka Vercel, pilih Add New Project, lalu impor sunanoedi/PurchaseMBG.
-2. Pilih branch **rebuild/ubg-company-profile** yang berisi source baru. Main belum otomatis berisi website ini; merge melalui alur review tim sebelum mengganti production branch final.
+2. Source berada di branch **rebuild/ubg-company-profile**. Main belum otomatis berisi website ini. Cara paling mudah untuk impor main: review lalu merge Pull Request branch ini terlebih dahulu. Jika proyek sudah dibuat dari main dan gagal, atur Production Branch ke branch source pada Settings → Git lalu redeploy; pastikan Root Directory tersedia pada branch yang dipakai.
 3. **Root Directory: company-profile**, Framework Next.js, Node.js24.x. Jangan deploy root repository/index.html. Biarkan Output Directory bawaan; jangan static export/out.
 4. Install/build mengikuti company-profile/vercel.json: frozen npm ci, tes, build dan typecheck.
 5. Untuk demo awal, environment boleh kosong. Website memakai /content dan form tidak mengirim. Pilih paket hosting yang sesuai penggunaan komersial dan batasi biaya.

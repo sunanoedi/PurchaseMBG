@@ -80,11 +80,7 @@
     "acara": "Events"
   },
   "hero": {
-    "title": [
-      "FROM OUR KITCHEN,",
-      "FOR YOUR",
-      "GREAT TEAM."
-    ],
+    "title": ["FROM OUR KITCHEN,", "FOR YOUR", "GREAT TEAM."],
     "body": "Lunch during a busy shift. A meal for a special occasion. Let’s prepare food that makes everyone feel cared for."
   },
   "advantages": [
@@ -269,12 +265,7 @@
       "name": "Everyday Team Meals",
       "category": "industry",
       "description": "A starting point for employee meal planning.",
-      "items": [
-        "Rice",
-        "Main dish",
-        "Vegetables",
-        "Accompaniments"
-      ]
+      "items": ["Rice", "Main dish", "Vegetables", "Accompaniments"]
     },
     {
       "name": "Meetings & Gatherings",

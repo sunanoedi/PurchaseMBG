@@ -80,11 +80,7 @@
     "acara": "Acara"
   },
   "hero": {
-    "title": [
-      "DARI DAPUR,",
-      "UNTUK TIM",
-      "YANG HEBAT."
-    ],
+    "title": ["DARI DAPUR,", "UNTUK TIM", "YANG HEBAT."],
     "body": "Makan siang di sela kerja. Jamuan di hari istimewa. Mari siapkan hidangan yang membuat semua merasa diperhatikan."
   },
   "advantages": [
@@ -269,22 +265,13 @@
       "name": "Sajian Harian Tim",
       "category": "industry",
       "description": "Kerangka awal untuk kebutuhan makan karyawan.",
-      "items": [
-        "Nasi",
-        "Lauk utama",
-        "Sayur",
-        "Pelengkap"
-      ]
+      "items": ["Nasi", "Lauk utama", "Sayur", "Pelengkap"]
     },
     {
       "name": "Rapat & Pertemuan",
       "category": "event",
       "description": "Kerangka sajian untuk agenda kantor atau pertemuan.",
-      "items": [
-        "Hidangan utama",
-        "Pelengkap",
-        "Pilihan minuman sesuai diskusi"
-      ]
+      "items": ["Hidangan utama", "Pelengkap", "Pilihan minuman sesuai diskusi"]
     }
   ],
   "form": {

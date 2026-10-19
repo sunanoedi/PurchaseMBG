@@ -1,0 +1,6 @@
+[extend]
+useDefault = true
+
+[allowlist]
+description = "Generated dependencies/builds only; source and real env files remain scanned"
+paths = ['''(^|/)node_modules/''','''(^|/)\.next/''','''(^|/)dist/''','''(^|/)\.sanity/''','''(^|/)\.git/''']
